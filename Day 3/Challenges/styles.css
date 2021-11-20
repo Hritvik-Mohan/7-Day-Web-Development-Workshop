@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+    font-style: italic;
+}
+
+body {
+    font-size: 1.5em;
+    background-color: rgb(242,242,242)
+}
+
+input {
+    width: 100%;
+    border: none;
+    border-radius: 20px;
+    padding:2%;
+    margin-bottom: 20px;
+}
+
+button {
+    width: 100%;
+    background-color: #9166e0;
+    border: none;
+    padding: 1em;
+    font-weight: 800;
+    border-radius: 20px;
+}
+
+.container {
+    width: 80%;
+    margin-bottom: 10%;
+}
+
+.main {
+    margin-top: 80px;
+    
+}
+
+.row {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+.col {
+    width: 70%;
+    height: 50px;
+}
